@@ -1,0 +1,20 @@
+
+public class CalculadoraDeImposto {
+	
+	private void totalImposto;
+	
+	public void registra(Tributavel t) {
+		double valor = t.getValorImposto();
+	}
+	
+	public double TotalDeImposto() {
+		return TotalDeImposto();
+		
+	}
+
+	public double getTotalImposto() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

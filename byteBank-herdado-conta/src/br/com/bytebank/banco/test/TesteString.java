@@ -1,0 +1,58 @@
+package br.com.bytebank.banco.test;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+		
+		String nome = "Alura";
+		
+		//String outra = nome.replaceAll("A","a");
+		
+		//String outra = nome.toLowerCase();
+		
+		String outra = nome.toUpperCase();
+		
+		//char c = nome.charAt(0);
+		//System.out.println(c);
+		
+		//char c ='A';
+		//char a = 'c';
+		
+		//System.out.println(c);
+		
+		System.out.println(nome);
+		System.out.println(outra);
+		
+
+		//int pos = nome.indexOf("ur");
+		//System.out.println(pos);
+		
+		String sub = nome.substring(1);
+		System.out.println(sub);
+		
+		System.out.println(nome.length());
+		
+		//for(int i = 0; i < nome.length(); i++) {
+		//    System.out.println(nome.charAt(i));
+		//}
+	//}
+
+	//String vazio = "";
+	//System.out.println(vazio.isEmpty());
+	
+	//String vazio =" ";
+	//String outroVazio = vazio.trim(); 
+
+	//System.out.println(outroVazio.isEmpty());
+	
+	//String vazio ="    Alura    ";
+	//String outroVazio = vazio.trim(); 
+
+	//System.out.println(outroVazio);
+	
+	String vazio ="    Alura    ";
+	String outroVazio = vazio.trim(); 
+
+	System.out.println(vazio.contains("Alu"));
+}
+}

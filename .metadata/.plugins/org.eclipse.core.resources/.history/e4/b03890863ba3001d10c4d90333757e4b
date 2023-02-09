@@ -1,0 +1,5 @@
+import Conta.java;
+
+public class ContaCorrente extends java {
+
+}

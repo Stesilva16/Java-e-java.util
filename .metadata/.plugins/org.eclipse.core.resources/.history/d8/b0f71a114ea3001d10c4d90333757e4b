@@ -1,0 +1,6 @@
+
+public abstract class FuncionarioAutenticado extends Funcionario {
+	
+	
+
+}

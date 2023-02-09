@@ -1,0 +1,15 @@
+
+public class Conta {
+	
+	private static double saldo = 0;
+
+	public boolean saca(double valor) {
+	    if(this.saldo >= valor) {
+	        Conta.saldo -= valor;
+	        return true;
+	    } else {
+	        return false;
+	    }
+	}
+
+}

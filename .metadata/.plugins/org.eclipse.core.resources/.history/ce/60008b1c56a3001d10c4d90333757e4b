@@ -1,0 +1,10 @@
+
+public class Cliente implements Autenticado {
+
+	@Override
+	public double getBonificacao() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

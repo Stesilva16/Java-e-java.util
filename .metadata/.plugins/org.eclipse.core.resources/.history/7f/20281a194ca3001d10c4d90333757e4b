@@ -1,0 +1,12 @@
+
+public class TesteSistema {
+
+	public static void main(String[] args) {
+		Gerente g = new Gerente();
+		g.getSenha(2222);
+		
+		SistemaInterno si = new SistemaInterno();
+		si.antenticou(g)
+	}
+
+}
